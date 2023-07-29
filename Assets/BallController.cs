@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.EventSystems;
 
 namespace DefaultNamespace
@@ -10,7 +11,7 @@ namespace DefaultNamespace
 
         private Camera      _camera;
         private Rigidbody2D _rb2D;
-
+        
         private void Start()
         {
             _camera = Camera.main;
